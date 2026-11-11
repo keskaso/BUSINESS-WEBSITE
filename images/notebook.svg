@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#eef2ed"/>
+  <ellipse cx="300" cy="292" rx="145" ry="18" fill="#d7ded7"/>
+  <g transform="rotate(-8 300 180)">
+    <rect x="185" y="52" width="235" height="245" rx="10" fill="#6c8a77"/>
+    <rect x="205" y="52" width="215" height="245" rx="9" fill="#ffffff"/>
+    <rect x="205" y="52" width="22" height="245" fill="#d7e3d9"/>
+    <path d="M244 117h140M244 151h140M244 185h140M244 219h140" stroke="#b9c8bc" stroke-width="4" stroke-linecap="round"/>
+    <text x="315" y="91" font-family="Arial" font-size="19" text-anchor="middle" fill="#496653">NOTES</text>
+  </g>
+</svg>

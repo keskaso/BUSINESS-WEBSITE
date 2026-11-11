@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="#f1f0ea"/>
+  <ellipse cx="300" cy="296" rx="140" ry="16" fill="#deded4"/>
+  <path d="M204 128h192l-15 156H219z" fill="#c9b99d"/>
+  <path d="M245 139v-42c0-60 110-60 110 0v42" fill="none" stroke="#8e8068" stroke-width="15" stroke-linecap="round"/>
+  <path d="M258 189h84" stroke="#aa997c" stroke-width="7" stroke-linecap="round"/>
+  <text x="300" y="235" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#756b5a">REUSE</text>
+</svg>
