@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Everyday Essentials</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body data-page="products">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="site-name" href="index.html">Everyday Essentials</a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a class="active" href="products.html">Products</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <section class="page-intro">
+            <p class="small-heading">OUR CATALOGUE</p>
+            <h1>Products</h1>
+            <p>Browse a selection of useful products for everyday life.</p>
+        </section>
+
+        <section class="catalogue-tools" aria-label="Product search and filters">
+            <label class="search-label" for="searchInput">Search products</label>
+            <input id="searchInput" type="search" placeholder="Enter a product name...">
+            <label class="search-label" for="categoryFilter">Category</label>
+            <select id="categoryFilter">
+                <option value="all">All categories</option>
+                <option value="Stationery">Stationery</option>
+                <option value="Daily Use">Daily Use</option>
+                <option value="Home">Home</option>
+            </select>
+        </section>
+
+        <p id="productCount" class="muted" aria-live="polite"></p>
+        <section id="productGrid" class="product-grid" aria-label="Product catalogue">
+            <p class="muted">Loading products...</p>
+        </section>
+        <p id="noProducts" class="empty-message" hidden>No products match your search.</p>
+        <p class="sample-note">Product names, pictures and prices are sample content for this website demonstration.</p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Everyday Essentials. All rights reserved.</p>
+            <p><a href="contact.html">Shop location and contact details</a></p>
+        </div>
+    </footer>
+</body>
+</html>

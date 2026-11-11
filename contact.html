@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Everyday Essentials</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body data-page="contact">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="site-name" href="index.html">Everyday Essentials</a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="products.html">Products</a>
+                <a href="reviews.html">Reviews</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <section class="page-intro">
+            <p class="small-heading">GET IN TOUCH</p>
+            <h1>Contact Us</h1>
+            <p>Have a question? Use the details below or send us an enquiry.</p>
+        </section>
+
+        <section class="contact-layout">
+            <div class="contact-details">
+                <h2>Shop Information</h2>
+                <div class="detail-item">
+                    <h3>Shop Address</h3>
+                    <p>[Add your complete shop address, city and PIN code]</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Contact Number</h3>
+                    <p>[Add your shop contact number]</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Email Address</h3>
+                    <p>[Add your business email address]</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Saturday: [Add opening hours]</p>
+                    <p>Sunday: [Add opening hours or Closed]</p>
+                </div>
+            </div>
+
+            <div class="contact-map-placeholder">
+                <h2>Shop Location</h2>
+                <div class="map-box">
+                    <div class="map-pin" aria-hidden="true">●</div>
+                    <p>Add your shop address to show the correct location here.</p>
+                </div>
+                <p class="muted">Once the shop address is available, this area can be replaced with a map or directions link.</p>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Send an Enquiry</h2>
+            <form id="contactForm" class="simple-form">
+                <div class="form-row">
+                    <label for="contactName">Your name</label>
+                    <input type="text" id="contactName" name="contactName" placeholder="Enter your name" required maxlength="60">
+                </div>
+                <div class="form-row">
+                    <label for="contactEmail">Email address</label>
+                    <input type="email" id="contactEmail" name="contactEmail" placeholder="Enter your email" required maxlength="100">
+                </div>
+                <div class="form-row">
+                    <label for="contactSubject">Subject</label>
+                    <input type="text" id="contactSubject" name="contactSubject" placeholder="Enter the subject" required maxlength="100">
+                </div>
+                <div class="form-row">
+                    <label for="contactMessageText">Message</label>
+                    <textarea id="contactMessageText" name="contactMessageText" rows="5" placeholder="Write your message here..." required maxlength="1000"></textarea>
+                </div>
+                <button class="button" type="submit">Submit Enquiry</button>
+                <p id="contactMessage" class="form-message" aria-live="polite"></p>
+            </form>
+            <p class="sample-note">This is a frontend demonstration. The form does not send or store messages.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>&copy; 2026 Everyday Essentials. All rights reserved.</p>
+            <p><a href="index.html">Back to Home</a></p>
+        </div>
+    </footer>
+</body>
+</html>
